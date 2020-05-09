@@ -14,5 +14,3 @@ RUN yum install docker -y
 COPY . /root/
 # Installing ansible and other packages
 RUN systemctl enable --now docker
-
-ENTRYPOINT ["/bin/sh","-c","/root/docker-loop.sh"]
