@@ -1,5 +1,5 @@
 ---
-  - name: Installing docker inside docker container
+  - name: creating multiple docker container
     hosts: local
     become: true
     tasks:
