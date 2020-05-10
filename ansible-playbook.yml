@@ -1,7 +1,6 @@
 ---
-  - name: creating multiple docker container
-    hosts: local
-    become: true
+  - name: Creating multiple docker container
+    hosts: localhost
     tasks:
-      - name: Running script file inside docker container.
+      - name: Running script file to create multiple docker containers.
         shell: /root/docker-loop.sh
