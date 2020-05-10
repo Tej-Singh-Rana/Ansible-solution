@@ -1,7 +1,8 @@
 #!/bin/bash
 # script for host machine
+
 #sudo amazon-linux-extras install ansible2
-sudo yum install docker -y && sudo systemctl enable --now docker
+#sudo yum install docker -y && sudo systemctl enable --now docker
 
 sudo docker image build -t ansible:v1 .
 
